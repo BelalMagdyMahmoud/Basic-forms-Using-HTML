@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Basic Form 1</title>
+	</head>
+	<body>
+		<h1 align="center">Basic Form 1</h1>
+		<form action="5-Submission.html" method="post" style="max-width:300px;margin:auto;">
+		<fieldset>
+		<legend>Name</legend>
+			<div>
+				<label for="1">First Name</label>
+				<br>
+				<input type="text" placeholder="please type your first name" size="40" maxlength="30" name="FirstName" tabindex="1" id="1">
+			</div>
+				<br>
+			<div>
+				<label for="2">Last Name</label>
+				<br>
+				<input type="text" placeholder="please type your last name" size="40" maxlength="30" name="LastName" id="2">
+			</div>
+				<br>
+		</fieldset>
+		<fieldset>
+		<legend>Other Questions</legend>
+			<div>
+				<label>Choose a Drink</label>
+				<br>
+				<input type="radio"  name="Drink" value="Coffee"><label>Coffee</label>
+				<br>
+				<input type="radio"  name="Drink" value="Tea" checked><label>Tea</label>
+				<br>
+				<input type="radio"  name="Drink" value="HotChocolate"><label>Hot Chocolate</label>
+			</div>
+				<br>
+			<div>
+				<label>What Ice Cream Do You Like?</label>
+				<br>
+				<input type="checkbox"  name="IceCream" value="Chocolate"><label>Chocolate</label>
+				<br>
+				<input type="checkbox"  name="IceCream" value="ChocolateBuding"><label>Chocolate Buding</label>
+				<br>
+				<input type="checkbox"  name="IceCream" value="ChocolatePeanutButter" checked><label>Chocolate Peanut Butter</label>
+				<br>
+				<input type="checkbox"  name="IceCream" value="Vanilla"><label>Vanilla</label>
+				<br>
+				<input type="checkbox"  name="IceCream" value="Strawberry"><label>Strawberry</label>
+			</div>
+				<br>
+			<div>
+				<label>Select a School</label>
+				<br>
+				<select name="School">
+					<option selected>Alexandria University</option>
+					<option>Cairo University</option>
+					<option>Qena University</option>
+					<option>Menia University</option>
+				</select>
+			</div>
+				<br>
+			<div>
+				<label>Please Provide Comments</label>
+				<br>
+				<textarea placeholder="write your comment here" cols="30" rows="2" name="Feedback"></textarea>
+			</div>
+				<br>
+		</fieldset>
+		<br>
+		<input type="submit" value="Submit">
+	</body>
+</html>

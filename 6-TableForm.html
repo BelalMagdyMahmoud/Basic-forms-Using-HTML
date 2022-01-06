@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Table Form</title>
+	</head>
+	<body>
+	<form action="5-Submission.html" method="post">
+		<table bgcolor="lightblue" border="1" height="600" align="center">
+			<tbody>
+				<tr >
+					<td><b><label for="1">Name:</label></td>
+					<td><input type="text" placeholder="please type your name" size="40" maxlength="30" name="FirstName" tabindex="1" id="1"></td>
+				</tr>
+				<tr >
+					<td><b><label for="2">Email:</label></td>
+					<td><input type="text" placeholder="please type your email" size="70" maxlength="30" name="Email" id="2"></td>
+				</tr>
+				<tr>
+					<td><b><label for="3">Password:</label></td>
+					<td><input type="password" placeholder="please type your password" size="40" name="Password" id="3"></td>
+				</tr>
+				<tr >
+					<td><b>Approval required:</td>
+					<td><input type="checkbox" name="Approval" id="4"><label for="4">Do You Approve?</label></td>
+				</tr>
+				<tr >
+					<td><b>Pick Your Favorite:</td>
+					<td><input type="radio" name="Favorite" id="5"><label for="5">Choice A</label>
+					<div><input type="radio" name="Favorite" id="6"><label for="6">Choice B</label></div>
+					<div><input type="radio" name="Favorite" id="7"><label for="7">Choice C</label></div></td>
+				</tr>
+				<tr >
+					<td><b>Popup Menu:</td>
+					<td><select name="Menu" size="1">
+						<option>Texas -- TX</option>
+						<option>Meshign -- ME</option>
+						<option>cansis -- CA</option>
+						<option>NewYork -- NY</option>
+					</select></td>
+				</tr>
+				<tr >
+					<td><b>List:</td>
+					<td><select name="School" size="5" multiple>
+						<option>California -- CA</option>
+						<option>Colorado -- CO</option>
+						<option>Connecticut -- CN</option>
+						<option>Dalas -- DA</option>
+						<option>Alexandria -- AL</option>
+						<option>Cairo -- CR</option>
+						<option>Qena -- QN</option>
+						<option>Menia -- MN</option>
+					</select></td>
+				</tr>
+				<tr >
+					<td><b><label for="8">Field Ignored by KM:</label></td>
+					<td><input type="text" name="FieldIgnored" id="8"></td>
+				</tr>
+				<tr >
+					<td><b><label for="9">Text Area:</label></td>
+					<td><textarea cols="50" rows="4" name="TextArea" id="9">Now is the time for all good men to come to the aid of their country</textarea></td>
+				</tr>
+			</tbody>
+		</table>
+		<br>
+		<div style="margin-left:30%;">
+			<input type="submit" value="Save">
+			<input type="reset" value="Cancel">
+		</div>
+	</body>
+</html>
